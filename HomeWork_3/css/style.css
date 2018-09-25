@@ -1,0 +1,45 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #aeaeae;
+}
+.box {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.header{
+	margin: 0 10%;
+	position: relative;
+}
+.logo, .nav{
+	display: inline-block;
+}
+.nav{
+	float: right;
+	margin-top: 25px;
+}
+.nav ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+.logo p {
+	margin-left: 50px;
+	font-size: 30px;
+}
+.nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+	color: white;
+}
+.content {
+	margin-top: 100px;
+}
+.text {
+	margin: 0 10%;
+	font-size: 18px;
+}

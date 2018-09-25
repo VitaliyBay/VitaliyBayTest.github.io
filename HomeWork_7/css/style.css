@@ -1,0 +1,70 @@
+body {
+	font-family: Tahoma, sans-serif; 
+}
+.section {
+	padding: 20px;
+}
+
+
+					/*Styles for section with video and form*/
+.header {
+	margin: 60px auto 85px auto;
+	font-size: 24px;
+	line-height: 1.4;
+}
+.header span {
+	display: block;
+}
+/*CSS for headline*/
+.form-header, .feature-header, .clients-header {
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: 900;
+
+}
+.video {
+	margin-bottom: 20px;
+}
+.form {
+	border: 5px solid #2727d9;
+	padding: 30px 20px;
+}
+.form-btn {
+	background-color: #2727d9;
+	margin: 15px auto;
+}
+.form input {
+	margin-bottom: 12px;
+}
+
+
+						/*Styles for section with featur box*/
+.feature-box p {
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: 900;
+}
+.feature-box p span {
+	display: block;
+}
+.feature-box {
+	height: 200px;
+}
+.feature {
+	margin: 50px auto 25px auto;
+}
+.feature-header {
+	margin-top: 30px;
+}
+
+
+						/*Styles for section with clients fotos*/
+.client-box img {
+	margin-bottom: 35px;
+}
+.clients-foto {
+	margin-top: 30px;
+}
+.clients-header {
+	margin: 30px auto 40px auto;
+}

@@ -1,0 +1,36 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+
+						/*Styles for font*/
+.header {
+	padding: 30px;
+	margin: 50px auto;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+p {
+	font-size: 18px;
+}
+
+
+						/*Styles for img-box*/
+.img_1 {
+	width: 84px;
+}
+.img_2 {
+	width: 121px;
+}
+.img_3 {
+	width: 136px;
+}
+.img_4, .img_6 {
+	width: 134px;
+}
+.img_5 {
+	width: 136px;
+}
+.img-box{
+	height: 136px;
+}

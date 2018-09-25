@@ -1,0 +1,64 @@
+/*Decoracíon de los nombre de los capitulos */
+h1, h2 {
+	text-align: center;
+}
+h1 {
+	background-color: #aeaeae;
+	margin: 0;
+	padding: 10px;
+}
+
+
+/*Decoracíon de la lista*/
+ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 900;
+}
+.red {
+	background-color: rgba(255, 0, 0, 0.4);
+	color: #f00;
+}
+.blue {
+	background-color: rgba(0, 0, 255, 0.4);
+	color: #00f;
+}
+
+
+/*Decoracíon de los capitulos y sus contrnidos*/
+.chapter-1, .chapter-3 {
+	text-align: justify;
+}
+.chapter-1 p span {
+	text-decoration: underline;
+}
+.chapter-2 p span {
+	text-decoration: line-through;
+}
+.chapter-3 p span {
+	font-weight: 900;
+}
+.chapter-4 p span {
+	font-style: italic;
+}
+.chapter-r {
+	color: red;
+}
+.chapter-b {
+	color:blue;
+}
+.chapter-1 h3, .chapter-3 h3, .chapter-5 h3 {
+	border-bottom: 2px solid #f00;
+	background-color: rgba(255, 0, 0, 0.3);
+}
+.chapter-2 h3, .chapter-4 h3 {
+	border-bottom: 2px solid #00f;
+	background-color: rgba(0, 0, 255, 0.3);
+}
+h3 {
+	font-style: italic;
+	display: inline-block;
+}
+img {
+	display: block;
+}

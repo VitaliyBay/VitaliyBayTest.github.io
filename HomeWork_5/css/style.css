@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Tahoma, sans-serif;
+	line-height: 1.5;
+	color: #333333;
+}
+
+							/*CSS for section with video and form*/
+.section {
+	padding: 30px 10%;
+}
+.header {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 24px;
+}
+.header span {
+	display: block;
+}
+.header strong {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+}
+.main {
+	margin-top: 80px;
+	text-align: center;
+}
+.video, .form {
+	display: inline-block;
+	vertical-align: top;
+}
+.form {
+	border: 5px solid #2727d9;
+	padding: 20px;
+	margin-left: 15px;
+}
+.form-header {
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: 900;
+	font-size: 20px;
+}
+.form input {
+	display: block;
+	width: 300px;
+	padding: 15px;
+	margin-top: 11px;
+	border: 1px solid #333333;
+	font-size: 18px;
+}
+
+							/*Styles for all button at the site*/
+.btn {
+	border: none;
+	width: 300px;
+	padding: 20px;
+	margin: 12px auto;
+	background-color: #2727d9;
+	color: #fff;
+}
+
+							/*Styles for <h2> in the section feature and clients-fotos*/
+.header-text {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 24px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+}
+
+							/*CSS fot section feature*/
+.col {
+	display: inline-block;
+	text-align: center;
+	margin: 100px 40px;
+}
+.feature {
+	text-align: center;
+}
+
+							/*CSS for section cliesnts-fotos*/
+.clients-foto {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.clients-foto ul li{
+	display: inline-block;
+	margin: 10px;
+}

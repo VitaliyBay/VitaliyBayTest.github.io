@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+}
+span {
+	color: #6ac8c8;
+	padding-left: 4px;
+}
+.form_3 label span {
+	padding-left: 0;
+}
+.sing-in-box{
+	padding: 3px;
+}
+.headline {
+	position: absolute;
+	top: -22px;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 7px 8px 6px 10px;
+	background-color: #01b3b3;
+	color: #fff;
+}
+.sing-in-box {
+	width: 320px;
+	height: 370px;
+	background-color: #fbfdfd;
+	border: 1px solid #aeaeae;
+	border-top: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -185px 0 0 -160px;
+}
+input{
+	border: 1px solid #cfdede;
+	height: 33px
+}
+.content{
+	width: 260px;
+	height: 100%;
+	margin: 0 auto;
+}
+.form_1{
+	margin-top: 30px;
+}
+input{
+	border: 1px solid #aeaeae;
+	font-size: 12px;
+	font-style: italic;
+}
+.form_1 label{
+	margin: 21px 0 9px 0;
+	font-size: 12px;
+}
+button {
+	margin-top: 33px;
+	font-weight: 900;
+	height: 46px;
+}
+.btn-lg {
+	font-size: 16px;
+	padding: 12px 16px;
+}
+.form_2 {
+	margin-top: 11px;
+} 
+.form_2 label{
+	font-size: 12px;
+	margin:4px 0 11px 0;
+}
+.form_3 {
+	margin-top: 12px;
+} 
+.form_3 label{
+	font-size: 12px;
+	margin:4px 0 11px 0;
+}
+.input_3{
+	height: 31px;
+}
+.form-control {
+	font-size: 12px;
+	border: none;
+	height: 32px;
+	border-radius: 2px;
+}

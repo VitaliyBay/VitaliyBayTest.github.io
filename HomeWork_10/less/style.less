@@ -1,0 +1,53 @@
+.img {
+	margin-top: 10px;
+	background-color: #000;
+}
+img{
+	height: 180px;
+	width: 100%;
+	&:hover{
+		opacity: 0.6;
+	}
+}
+.FirstBtn{
+	margin-top: 30px;
+	padding: 18px;
+	font-weight: 700;
+	border: none;
+	font-size: 18px;
+	color: #fff;
+	background-color: #40c781;
+	box-shadow: 0 -3px rgb(53, 167, 110) inset;
+	&:hover {
+		border: none;
+		box-shadow: none;
+		background-color: darken(#40c781, 10%);
+	}
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		border-radius: 2px;
+		background-color: lighten(#40c781, 10%);
+		box-shadow: none;
+		color: darken(#fff, 50%);
+	}
+}
+.SecondBtn {
+	margin-left: 20px;
+	padding: 12px 30px;
+	background-color: #e38916;
+	border: none;
+	border-radius: 5px;
+	&:hover {
+		background-color: darken(#e38916, 5%);
+	}
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		font-size: 18px;
+		color: #fff;
+		background-color: lighten(#e38916, 10%);
+	}
+}

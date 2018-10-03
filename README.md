@@ -21,3 +21,5 @@ My HomeWork
 [HomeWork_9](VitaliyBay.github.io/HomeWork_9 "HomeWork") - PerfectPixel Maket
 
 [HomeWork_10](VitaliyBay.github.io/HomeWork_10 "HomeWork") - Efects (:hover, :focus, :active, ::before, ::after)
+
+[HomeWork_11](VitaliyBay.github.io/HomeWork_11 "HomeWork") - Slider (fotorama)

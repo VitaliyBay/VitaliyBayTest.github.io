@@ -19,3 +19,5 @@ My HomeWork
 [HomeWork_8](VitaliyBay.github.io/HomeWork_8 "HomeWork") - Less \(x_x)/
 
 [HomeWork_9](VitaliyBay.github.io/HomeWork_9 "HomeWork") - PerfectPixel Maket
+
+[HomeWork_10](VitaliyBay.github.io/HomeWork_10 "HomeWork") - Efects (:hover, :focus, :active, ::before, ::after)

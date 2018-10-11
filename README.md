@@ -25,3 +25,7 @@ My HomeWork
 [HomeWork_11](VitaliyBay.github.io/HomeWork_11 "HomeWork") - Slider (fotorama)
 
 [HomeWork_12](VitaliyBay.github.io/HomeWork_12 "HomeWork") - Modals
+
+[HomeWork_13](VitaliyBay.github.io/HomeWork_13 "HomeWork") - Collaps
+
+[HomeWork_14](VitaliyBay.github.io/HomeWork_14 "HomeWork") - Tab (With Animation)

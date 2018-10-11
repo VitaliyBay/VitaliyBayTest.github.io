@@ -1,0 +1,235 @@
+// Font Family
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../font/MyriadPro-Regular.eot');
+    src: url('../font/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../font/MyriadPro-Regular.woff2') format('woff2'),
+        url('../font/MyriadPro-Regular.woff') format('woff'),
+        url('../font/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Settings
+body {
+	background: url(../img/bgc.png) center no-repeat;
+	font-family: 'Myriad Pro';
+}
+html {
+	font-size: 10px;
+}
+a:hover {
+	text-decoration: none;
+}
+input, a {
+	outline: none;
+}
+
+// Tab panel
+.nav-tabs {
+	margin-left: 2rem;
+	width: 504px;
+}
+.tab-content {
+	background-color: #03a5da;
+	width: 524px;
+	padding: 2rem;
+	border-radius: 5px;
+}
+.starter-template {
+	margin-left: 50%;
+	margin-top: 4%;
+	transform: translateX(-42%);
+	width: 630px;
+	height: 450px;
+}
+.login {
+	margin: 0 auto;
+	width: 482px;
+	// height: 428px;
+	display: block;
+	background-color: #000;
+	&-box{
+		padding: 4rem 4rem 1rem 4rem;
+		width: 482px;
+		&-input {
+			display: block;
+			padding: 1rem 2rem;
+			margin-top: 3rem;
+			width: 100%;
+			font-size: 2.4rem;
+			border: none;
+			border-radius: 5px;
+			background: url(../img/bg_input.jpg) center;
+			color: #fff;
+			&::placeholder {
+				color: #fff;
+			}
+		}
+		&-text {
+			margin: 2rem;
+			a {
+			color: red;
+			}
+		}
+	}
+}
+input[type=checkbox], input[type=radio] {
+	margin: 2rem 0 0 2rem;
+}
+.enter-box {
+	position: absolute;
+	bottom: 7.1rem;
+	right: 9.7rem;
+	display: block;
+	background: url(../img/tabs_enter.png);
+	text-align: center;
+	padding: 1rem 2rem;
+	width: 128px;
+	height: 50px;
+	animation: hide 3s;
+	a {
+		position: absolute;
+		top: 12%;
+		left: 30%;
+		font-weight: 900;
+		font-size: 2.4rem;
+		color: #fff;
+	}
+}
+.nav-tabs {
+	border-bottom: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	color: #fff;
+    background-color: #03a6db;
+    border: 1px solid #03a6db;
+}
+.nav-tabs>li>a {
+	padding: 0 2rem;
+    margin-right: 1rem;
+    border: 1px solid #fffefe00;
+    border-radius: 4px 4px 0 0;
+    background-color: #fff;
+    color: #080707;
+    font-size: 2.4rem;
+}
+.next {
+	animation-name: color_next;
+	animation-duration: 1s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+	&-box{
+		bottom: 4rem;
+		right: 9.7rem;
+	}
+	font-size: 2rem;
+}
+
+// Animation
+@keyframes move_login_password {
+	// Fiest One
+	from {
+		margin-top: -8rem;
+		margin-left: -4rem;
+		width: 10%;
+	}
+	25% {
+		width: 50%;
+	}
+	50% {
+		width: 75%;
+	}
+	// Last One
+	to {
+		margin-top: 3rem;
+		margin-left: 0;
+		width: 100%;
+	}
+}
+@keyframes move_login_text{
+	// Fiest One
+	from {
+		margin-top: -8rem;
+		margin-left: -4rem;
+		width: 10%;
+	}
+	25% {
+		width: 50%;
+	}
+	50% {
+		width: 75%;
+	}
+	// Last One
+	to {
+		margin-top: 3rem;
+		margin-left: 0;
+		width: 100%;
+	}
+}
+@keyframes hide {
+	from {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+	to {
+		opacity: 1; 
+	}
+}
+@keyframes singin_move_text {
+	from {
+		margin-top: -5rem;
+	}
+	to {
+		margin-top: 3rem;
+	}
+}
+@keyframes singin_move_password {
+	from {
+		margin-top: -5rem;
+	}
+	to {
+		margin-top: 3rem
+	}
+}
+@keyframes singin_move_confirm {
+	from {
+		margin-top: -5rem;
+	}
+	to {
+		margin-top: 3rem;
+	}
+}
+@keyframes color_next{
+	from {
+		color: #fff;
+	}
+	to{
+		color: #03a5da;
+	}
+}
+.singin_text {
+	animation: singin_move_text 2s;
+}
+.singin_password {
+	animation: singin_move_password 2s;
+}
+.singin_confirm {
+	animation: singin_move_confirm 2s;
+}
+.loginpassword {
+	animation-name: move_login_password;
+	animation-duration: 2s;
+}
+.logintext {
+	animation-name: move_login_text;
+	animation-duration: 2s;
+}
+
+

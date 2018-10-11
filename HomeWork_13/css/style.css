@@ -1,0 +1,9 @@
+.panel-default > .panel-heading {
+  color: #fffdfd;
+  background-color: #0bbaf0;
+  border-color: #ddd;
+}
+.panel-default,
+.panel-default {
+  width: 600px;
+}

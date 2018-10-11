@@ -1,0 +1,33 @@
+.modal-header {
+  text-transform: uppercase;
+  background-color: #f00;
+  opacity: 0.6;
+  color: #fff;
+  z-index: -1;
+}
+.modal-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.modal-body p {
+  font-family: 'Arial', 'Tahoma', sans-serif;
+  font-size: 20px;
+}
+.modal-body p span {
+  color: rgba(255, 0, 0, 0.7);
+}
+.btn {
+  font-weight: 700;
+}
+.btn-no {
+  background-color: #000;
+  opacity: 0.6;
+  color: #fff;
+}
+.close-span:hover {
+  background: #000000;
+}
+.close span {
+  color: #0ff;
+  z-index: 99;
+}

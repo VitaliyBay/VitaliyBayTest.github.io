@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modal</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+
+	<a href="#myModal" data-toggle="modal"> Remov files</a>
+	<button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Files</button>
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Remov files
+</button>
+
+
+	<!-- Modal -->
+<div class="modal fade" id="myModal">
+
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">удалить файл</h4>
+      </div>
+      <div class="modal-body">
+        <p>Вы действительно  хотите <span>удалить</span> файл?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-yes" data-dismiss="modal">Да</button>
+        <button type="button" class="btn btn-default btn-no" data-dismiss="modal">Нет</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+	<!-- scripts for modal icon -->
+	<!-- Conect jquery librery -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<!-- Conect js  -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

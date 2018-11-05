@@ -1,45 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Efects</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
-	<div class="container">
-		<div class="row">
-
-			<div class="col-md-3">
-				<div class="img">
-					<img src="img/1.jpg" alt="">
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="img">
-					<img src="img/2.jpg" alt="">
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="img">
-					<img src="img/3.jpg" alt="">
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="img">
-					<img src="img/4.jpg" alt="">
-				</div>
-			</div>
-		</div>
-
-		<button class="FirstBtn" type="submit">Кнопка</button>
-		
-		<button class="SecondBtn" type="submit">Кнопка</button>
-
+	<!-- data-allowfullscreen puede tener valores "true" o "native" -->
+	<div class="fotorama" data-nav="thumbs" data-allowfullscreen="native" data-loop="true" data-autoplay="4000">    
+	  <img src="http://s.fotorama.io/1.jpg">
+	  <img src="http://s.fotorama.io/2.jpg">
+	  <img src="http://s.fotorama.io/3.jpg">
 	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+
 </body>
 </html>
